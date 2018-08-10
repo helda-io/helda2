@@ -1,6 +1,6 @@
 (ns helda.meta.core
   (:require [schema.core :as s])
-  (:require [helda.meta.schemas :refer :all])
+  (:require [helda.meta.schema :refer :all])
   (:require [helda.meta.fields :as f])
   (:require [helda.meta.handlers :as h])
   )

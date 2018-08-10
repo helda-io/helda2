@@ -2,7 +2,7 @@
   (:require [schema.core :as s])
   (:require [schema.utils :as su])
   (:require [helda.helpers.request :refer [coerce]])
-  (:require [helda.meta.schemas :refer :all])
+  (:require [helda.meta.schema :refer :all])
   )
 
 (s/defn ^:always-validate add-handler :- Meta [meta :- Meta handler :- Handler]

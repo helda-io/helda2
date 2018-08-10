@@ -1,6 +1,6 @@
 (ns helda.meta.fields
   (:require [schema.core :as s])
-  (:require [helda.meta.schemas :refer :all])
+  (:require [helda.meta.schema :refer :all])
   )
 
 (s/defn ^:always-validate add-field :- Meta [meta :- Meta field :- Field]
