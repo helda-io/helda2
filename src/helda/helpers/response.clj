@@ -1,6 +1,6 @@
 (ns helda.helpers.response
   (:require [schema.core :as s])
-  (:require [helda.meta.schemas :refer :all])
+  (:require [helda.meta.schema :refer :all])
   )
 
 (s/defn init-response :- Response [tag :- s/Keyword]
